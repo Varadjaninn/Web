@@ -1,0 +1,62 @@
+<!--
+    Blog Exercise
+
+Home Page content
+● Create a page with two columns
+● Width of the left column is 300px
+● Right column stretches to cover the rest of the screen
+● Left column content
+○ Logo image with height set to 250px
+○ Under the logo, there should be a list of links
+○ One of the links should be &quot;Contact&quot;
+○ The link should link to &quot;./contact.html&quot; page
+● Right column content
+● There should be two posts in form of groups
+● The first group content:
+○ Title
+○ Embedded YouTube video
+● The second group content:
+○ Title
+○ Video (HTML5) that you will find on the web
+
+Contact Page content
+● Embedded Google Map on the page
+● Link for getting back to the “Home” page
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aditional Elements</title>
+</head>
+<body>
+    <table width="100%" border="2" bordercolor="blue">
+        <tr align="center">
+            <td width="300" align="center">Left column
+                <hr>
+                <image src="http://poincare.matf.bg.ac.rs/~andjelka/12sbak/images/contact.jpg" height="250" alt="contact"/>
+                <ul>
+                    <li><a href="description.html">Description</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="contact.html" target="_blanck">Contact</a></li>
+                </ul>
+            </td>
+            <td align="center"> <br> Right column <br>
+                <hr>
+                <label>
+                    <h2>Deep House Music</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wHDVX2E8nLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </label>
+                <hr>
+                <label>
+                    <h2>Robin Schulz - Sun Goes Down</h2>
+                        <video controls autoplay muted>
+                            <source src="Sun Goes Down.mp4" type="video/mp4">
+                            <source src="Sun Goes Down.ogg" type="video/ogg">
+                        </video>
+                </label>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!--Dropdown/Multiselect
+Create a page that contains three dropdown (selects) in one row
+Dropdowns are used by the user to provide the day, month and year of birth
+The page also contains multiselect box
+Multiselect box contains "categories" out of which the user can select several
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms 3</title>
+</head>
+<body>
+    <label>Date of birth</label>
+    <form action="http://www.example.com/login.php">
+       <select name="day">
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+           <option value="5">5</option>
+           <option value="6">6</option>
+           <option value="7">7</option>
+           <option value="8">8</option>
+           <option value="9">9</option>
+           <option value="10">10</option>
+       </select>
+       <select name="month">
+        <option value="January">January</option>
+        <option value="February">February
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+       </select>
+       <select>
+        <option value="1985">1985</option>
+        <option value="1986">1986</option>
+        <option value="1987">1987</option>
+        <option value="1988">1988</option>
+        <option value="1989">1989</option>
+       </select>
+    </form>
+    <br>
+    <form action="http://www.example.com/login.php">
+        <p>Choose several colors:</p>
+        <select name="color" size="4" multiple="multiple">
+            <option value="blue" selected>Blue</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+        </select>
+    </form>
+</body>
+</html>
+

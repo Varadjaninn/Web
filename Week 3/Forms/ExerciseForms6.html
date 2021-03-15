@@ -1,0 +1,41 @@
+<!--
+HTML5 elements (required, date, email, url, search)
+●+ Create a form for Facebook posts scheduling
+● The page should have one form that consists of elements, labels and a
+submit button
+● It should have one required text field (Name)
+● A field for date on which the post should be created
+● A URL field for a website that will be used for the post
+● A field that contains an email address to which an email is sent after
+publishing the post
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms 6</title>
+</head>
+<body>
+    <h1>Facebook Post Scheduling</h1>
+    <form>
+            <input type="text" name="fname" required placeholder="Enter your full name..." minlength="3"> Full Name
+        <br>
+        <br>
+            <input type="date" required> Enter your date of birth
+        <br>
+        <br>
+        <fieldset>
+            <p>Please enter your Facebook URL bellow:</p>
+            <input type="url" name="url" required placeholder="Enter your Facebook URL"> 
+        <br>
+        <br>
+            <p>Please enter your Email address bellow:</p>
+            <input type="email" name="email" required placeholder="Enter your email address">
+        </fieldset>
+        <br>
+        <br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

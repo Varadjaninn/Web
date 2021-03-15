@@ -1,0 +1,38 @@
+<!--
+  Reset/Button/Hidden
+Create a form that contains multiple elements (text, textarea, radio)
+At the end of the form, there are two buttons:
+The first one is a reset button used for resetting form
+The second button contains an image and text inside it (it's a submit button
+  
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms 4</title>
+</head>
+<body>
+    <form>
+        <p>Please enter your full name:
+            <input type="text" name="name" size="50" maxlength="100"/>
+        </p> 
+    <br>
+    <br>
+        <p>Please write your observation:</p>
+        <textarea name="observation" cols="50" rows="5" placeholder="Write your observation here"></textarea>
+    <br>
+    <br>
+        <p>Please select your gender:</p>
+        <br />
+        <input type="radio" name="gender" value="Male" checked> Male <br>
+        <input type="radio" name="gender" value="Female"> Female <br>
+        <input type="radio" name="gender" value="Unknown"> Unknown <br>
+        <br>
+        <input type="reset" value="Reset">
+        <br>
+        <input type="image" src="https://freepngimg.com/thumb/categories/1428.png" width="100" height="100">
+    </form>
+</body>
+</html>
