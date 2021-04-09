@@ -1,0 +1,38 @@
+<!--
+    Textarea/Radio/Checkbox
+Create a page that simulates a school quiz, containing multiple questions:
+The first question should contain multiple options out of which the student can select only one
+The second quiz question has multiple options out of which the user can select several
+The third question should require from user to insert some long text
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>School quiz</title>
+</head>
+<body>
+    <form action="http://www.example.com/profile.php">
+        <p> 1. What is the highest mountain peak in the world:
+            <br>
+            <input type="radio" name="mountain peak" value="Pancicev vrh" checked="checked" /> Pancicev vrh <br>
+            <input type="radio" name="mountain peak" value="K2"/> K2 <br>
+            <input type="radio" name="mountain peak" value="Mount Everest"/> Mount Everest <br>
+        </p>
+    </form>
+    <form action="http://www.example.com/profile.php">
+        <p> 2. Please select the coldest and the warmest season of the year:
+            <br>
+            <input type="checkbox" name="season" value="spring" /> Spring <br>
+            <input type="checkbox" name="season" value="summer" /> Summer <br>
+            <input type="checkbox" name="season" value="autumn" /> Autumn <br>
+            <input type="checkbox" name="season" value="winter" /> Winter <br>
+        </p>
+    </form>
+    <form action="http://www.example.com/comments.php">
+        <p>Please write bellow a few sentances about yourself:</p>
+            <textarea name="comments" cols="30" rows="5" placeholder="A few sentances about yourself..."></textarea>
+    </form>
+</body>
+</html>

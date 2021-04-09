@@ -1,0 +1,92 @@
+<!--
+    Labels/Grouping
+● Creates a form used for catering reservations
+
+● The form contains multiple elements split into groups
+● Each element should have a label assigned to it
+First group
+● Name of the group should be &quot;Personal data&quot;
+● The first field is for the name
+● The second one is for the email address
+● The third is for the phone number
+Second group
+● Name of the group should be &quot;Location&quot;
+● It should contain fields for:
+○ City
+○ Street
+○ Street number
+
+Third group
+● Name of the group should be &quot;Event info&quot;
+● The first element is dropdown containing the following options:
+○ birthday
+○ wedding (should be selected by default)
+○ company
+● The second element is for getting number of expected guests and it’s
+an input type element
+● Placeholder is a number you choose
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms 7</title>
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQVOHCeEFY4RbG1Zd2qbYtkHKr9piKCS6jg&usqp=CAU" alt="Catering" >
+    <h1>Catering Reservation Form</h1>
+        <p>Dear customer, in order to make a reservation please fill up and submit the form bellow:</p>
+    <hr>
+    <br>
+    <br>
+    <form method="POST" action="handle-upload.html" target="_blanck">
+        <fieldset>
+            <legend>Personal data</legend>
+                <label for="Personal data">
+                     Name: <br>
+                        <input type="text" name="name" size="50" lenght="100" placeholder="Please enter your full name here..." required> <br>
+                     Email: <br>
+                        <input type="email" name="email" size="50" placeholder="Please enter your email here..." required> <br>
+                    Phone number: <br>
+                        <input type="tel" pattern="[0-9]{9,10}" name="phonenumber" size="50" minlength="9" maxlength="10" placeholder="06********" required > <br>
+                </label>
+        </fieldset>
+            <br>
+        <fieldset>
+            <legend>Location</legend>
+                <label for="Location">
+                    City: <br>
+                        <input type="text" name="city" id="city" size="50" placeholder="Please enter your city here..." required> <br>
+                    Street: <br>
+                        <input type="text" name="street" id="street" size="50" placeholder="Please enter your street address here..." required> <br>
+                    Street number: <br>
+                        <input type="text" name="streetnumber" id="streetnumber" size="2" placeholder="n/a" required> <br>
+                </label>
+        </fieldset>
+            <br>
+        <fieldset>
+            <legend>Event Info</legend>
+                <label for="Event Info">
+                        <p>Please select the event:</p>
+                        <select name="event" id="event">
+                            <option value="birthday">Birthday</option>
+                            <option value="wedding" selected>Wedding</option>
+                            <option value="company">Company</option>
+                        </select>
+                        <br>
+                        <br>
+                        Expected number of guests:
+                        <input type="number" name="guests" min="70" max="350" placeholder="ex. 200" required>
+                        <br>
+                        <p>Please choose the date of the event:</p>
+                        <input type="date" name="date" required>
+                </label>
+        </fieldset>
+            <br>
+            <input type="reset" value="Reset">
+            <br>
+            <input type="image" src="https://images.squarespace-cdn.com/content/v1/572e26faf8baf3257a2af351/1468901456710-XSZ9S6TEMKMCE6WPRN15/ke17ZwdGBToddI8pDm48kL_SjxWrgDOt79IRXc2PVqQUqsxRUqqbr1mOJYKfIPR7Wj4jzmqc6p6rk1DK47rYooLY_QO-iUYjFKI-P10pMw5CRW4BPu10St3TBAUQYVKcsRtvx89x3jI7SdjN_SFM0Kns1TeQq81cDrkY4D9zpQy2jx2cJWIXDN7wVkwFlhzu/Submit+Button" name="submit" width="600" height="100">
+    </form>
+</body>
+</html>
