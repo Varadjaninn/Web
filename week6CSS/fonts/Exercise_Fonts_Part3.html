@@ -1,0 +1,44 @@
+<!--
+    Line/Word/Letter Spacing (Challenge for students)
+● Create a page with three paragraphs
+● Spacing between characters in the first paragraph should be 5px
+● Line height of the second paragraph is 200% of the original line height
+● The third paragraph should not be styled
+
+Alignment
+● Align text in the previous examples:
+○ First paragraph to the left
+○ Second to the right
+○ Third should be centered
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fonts</title>
+    <style>
+        body {
+            line-height: initial;
+        }
+        .prvi {
+            word-spacing: 5px;
+            text-align: left;
+        }
+        .drugi {
+            line-height: 200%;
+            text-align: right;
+        }
+        .treci {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Part 3</h1>
+    <p class="prvi">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor arcu quis ex vehicula sollicitudin. Nam at viverra sapien. Vivamus facilisis pretium eros, eu ullamcorper leo interdum id. Nullam tincidunt rutrum maximus.</p>
+    <p class="drugi">Vivamus id malesuada felis. Mauris at aliquet diam, eget mollis nibh. Pellentesque sit amet lacus quis velit tempor tincidunt. Cras nunc quam, luctus vitae purus vitae, blandit mattis turpis.</p>
+    <p class="treci">Phasellus rhoncus ipsum ac hendrerit congue. In dictum condimentum tortor rhoncus aliquam. Sed vel nisi pretium metus auctor ultrices vel nec ex.</p>
+</body>
+</html>

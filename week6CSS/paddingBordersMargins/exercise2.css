@@ -1,0 +1,22 @@
+p{
+    background-color: yellow;
+    border: 5px thick;
+}
+p.prvi{
+    border: red dashed;
+    padding: 50px;
+    width: 300px;
+    margin: 50px;
+}
+p.drugi{
+    border: green solid;
+    padding-top: 50px;
+    width: 400px;
+    margin: auto;
+}
+p.treci{
+    border: red dashed;
+    padding: 50px;
+    width: 200px;
+    margin-left: 100px;
+}

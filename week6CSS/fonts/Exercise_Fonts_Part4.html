@@ -1,0 +1,48 @@
+<!--
+    Shadow/Pseudo-Classes
+Create a page with a list of links to some websites
+Shadow
+● Set the default color for that list
+● Add text shadow to text of all the list elements
+Pseudo-Classes
+● Each link that is not clicked yet should be red
+● Each visited link should be black
+
+● Hovering over text should make it green
+● Clicking and holding the link should make it blue
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fonts</title>
+    <Style>
+        body {
+            font-size: 300%;
+        }
+        ol {
+            color: orange;
+            text-shadow:2px 5px 0px rgba(108, 144, 204, 1);
+        }
+        a:link {
+            color: red;
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            color: green;
+        }
+        a:active {
+            color: blue;
+        }
+    </Style>
+</head>
+<body>
+    <ol>
+        <li> <a href="https://www.lipsum.com/" target="_blanck">Lorem Ipsum</a> </li>
+        <li> <a href="https://mondo.rs/" target="_blanck">Mts Mondo</a> </li>
+        <li> <a href="https://nova.rs/" target="_blanck">Nova.rs</a></li>
+    </ol>
+</body>
+</html>

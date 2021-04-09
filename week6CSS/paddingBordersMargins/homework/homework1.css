@@ -1,0 +1,101 @@
+body{
+    font-family: sans-serif;
+    color: navy;
+    background-color: #eee;
+    margin: unset;
+}
+h1{
+    size: 26pt;
+    text-transform: lowercase;
+    text-align: right;
+    background-color: navy;
+    color: #ccf;
+    margin: 4px 10px;
+    margin-top: unset;
+    border: solid #88c 8px;
+    border-left: unset;
+    border-right: unset;
+}
+p{
+    width: 80%;
+    margin:auto;
+    margin-top: unset;
+    margin-bottom: 16px;
+    border-left: 10px #ccf solid;
+    padding-left: 10px;
+}
+p.aside{
+    width: 30%;
+    padding: 16px;
+    margin-right: 5px;
+    text-align: left;
+    text-size-adjust: 80%;
+    border: solid red;
+    border-width: 2px 5px 5px 2px;
+    background-color: yellow;
+    color: red;
+}
+h2{
+    width: 90%;
+    border-bottom: 5px dotted #88d;
+}
+table{
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 4px black solid;
+    background-color: #fde;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    border: 2px black solid;
+    border-left: 1px #a88 solid;
+    border-right: 1px #a88 solid;
+}
+tr{ 
+    border: 2px black solid;
+    border-left: unset;
+    border-right: unset;
+}
+td {
+    border: 1px #a88 solid;
+    border-top: unset;
+    border-bottom: unset;
+}
+#prvi{
+    background-color:mediumslateblue;
+    color: white;
+}
+div{
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 425px;
+    border: 15px green double;
+    padding: 10px; 
+}
+p#poseban{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    border: unset;
+}
+ul{
+    width: 70%;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: serif, cursive;
+    font-style:italic;
+}
+a{
+    font-weight: bold;
+    text-decoration: unset;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color:green;
+}

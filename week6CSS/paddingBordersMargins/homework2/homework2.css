@@ -1,0 +1,44 @@
+.dotted {
+    border: 10px dotted;
+}
+
+.dashed {
+    border: 10px dashed;
+}
+
+.solid {
+    border: 10px solid;
+}
+
+.double {
+    border: 10px double;
+}
+
+.groove {
+    border: 10px groove;
+}
+
+.ridge {
+    border: 10px ridge;
+}
+
+.inset {
+    border: 10px inset;
+}
+
+.outset {
+    border: 10px outset;
+}
+
+.without {
+    border: none;
+}
+
+.hidden {
+    border: 10px hidden;
+}
+
+.mixed {
+    border: 10px;
+    border-style: dotted solid solid double;
+}

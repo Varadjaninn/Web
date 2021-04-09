@@ -1,0 +1,28 @@
+.flex {
+    margin-right: 20px;
+    padding: unset;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.drugi {
+    display: none;
+}
+.treci {
+    visibility: hidden;
+}
+
+h1 {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: tomato;
+    color: whitesmoke;
+    font-family: cursive;
+    box-shadow: 22px 18px 10px 1px rgba(24,13,171,0.64);
+    border-radius: 8px 16px 0px 30px;
+}

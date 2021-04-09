@@ -1,0 +1,21 @@
+.prva {
+    list-style-type: circle;
+}
+.druga {
+    list-style-type: square;
+}
+.treca {
+    list-style-type: upper-alpha;
+}
+.cetvrta {
+    list-style-type: upper-roman;
+}
+.peta {
+    list-style-image: url(./apple.png);
+    width: 200px;
+}
+.sesta {
+    list-style-image: url(./sun.png);
+    width: 200px;
+    list-style-position: inside;
+}

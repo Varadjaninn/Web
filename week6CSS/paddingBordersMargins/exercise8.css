@@ -1,0 +1,20 @@
+.prvi{
+position: relative;
+top: 50px;
+left: 100px;
+margin-bottom: 50px;
+}
+.drugi{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.treci{
+    position: absolute;
+    bottom: 10px;
+}
+a{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
