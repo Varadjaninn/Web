@@ -1,0 +1,56 @@
+body {
+width: 70%;
+margin: auto;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+.one {
+    background-color: red;
+}
+.two {
+    background-color: blue;
+}
+.three {
+    background-color: yellow;
+}
+.four {
+    background-color: red;
+    margin-bottom: 230px;
+    
+}
+.five {
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    
+}
+.six {
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.seven {
+    background-color: red;
+    position: absolute;
+    right: 15%;
+    margin-top: 20px;
+}
+.eight {
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    right: 100px;
+    
+}
+.nine {
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+

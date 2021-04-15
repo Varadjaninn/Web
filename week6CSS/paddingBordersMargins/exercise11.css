@@ -1,0 +1,13 @@
+ul {
+    width: 70%;
+    background-color: tomato;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+li {
+    color: white;
+    float: right;
+    padding: 10px;
+}
