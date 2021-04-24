@@ -1,0 +1,14 @@
+.first {
+    height: 200px;
+    float: right;
+}
+.second {
+    width: 200px;
+    margin: 200px auto 0px auto;
+    display: block;
+}
+.third {
+    height: 200px;
+    width: 200px;
+    float: left;
+}

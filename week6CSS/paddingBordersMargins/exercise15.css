@@ -1,0 +1,85 @@
+.listone {
+    width: 960px;
+    background-color: tomato;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.listone li {
+    color: white;
+    float: right;
+    padding: 10px;
+}
+img {
+    position: relative;
+    margin: 5px auto;
+    width: 960px;
+    display: block;
+}
+section {
+    margin:auto;
+    width: 960px;
+}
+article {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    position: relative;
+}
+article div {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.listtwo {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(255, 174, 0);
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+}
+.listtwo li {
+    padding: 10px;
+    border-bottom: solid 1px;
+    text-align: left;
+}
+.redtd{
+    background-color: rgba(214, 18, 18, 0.87);
+    
+}
+.bluetd {
+    background-color: rgb(37, 37, 165);
+}
+.yellowtd {
+    background-color: rgb(233, 220, 38);
+
+}
+.greentd {
+    background-color: rgb(17, 165, 108);
+}
+div p {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    padding: 83px;
+}
+.listthree {
+    background-color: rgb(2, 2, 61);
+    width: 80%;
+    list-style-type: none;
+    margin: auto;
+}
+.listthree li {
+    color: white;
+    padding: 1px;
+    margin-left: 100px;
+}
+footer {
+    padding-top: 20px;
+}
+
