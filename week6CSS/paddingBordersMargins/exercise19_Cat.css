@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Architects Daughter', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+  }
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Architects Daughter', cursive;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    font-size: 25px;
+    
+    padding-left: 200px;
+}
+
+header p{
+    margin: 3px 0px 3px 0px;
+}
+
+.first {
+    color: white;
+    font-size: 30px;
+    background-image: url(./catBackround.jpg);
+    background-repeat: repeat;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second {
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#second {
+    color: rgb(16, 16, 95);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.inner {
+    width: 25%;
+    flex: 1;
+}
+
+
+.textbox {
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+select {
+    width: 98%;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+    opacity: 0.8;
+}
+
+textarea {
+    width: 96%;
+    opacity: 0.8;
+}
+
+input {
+    width: 99%;
+    background-color: green;
+    color: white;
+    margin: auto;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px 0px 5px 0px;
+    opacity: 0.7;
+}
+
+img {
+    width: 650px;
+    flex: 3;
+    padding: 30px;
+}
+
+.third {
+    width: 100%;
+    background-color: rgb(148, 168, 206);
+    display: flex;
+    flex-direction: row;
+}
+
+.inner2 {
+    font-size: 12px;
+    color: rgb(16, 16, 95);
+    flex: 3;
+    padding-left: 200px;
+   
+}
+.inner2 h1 {
+    font-size: 30px;
+}
+
+#catchat {
+  width: 300px;
+  height: 300px;
+  flex: 1;
+  padding-right: 230px;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    font-size: 10px;
+    text-align: right;
+}

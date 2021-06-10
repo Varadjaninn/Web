@@ -1,0 +1,10 @@
+$backCol: yellow;
+$width: 80%;
+
+.container {
+    background:  $backCol;
+    width:  $width;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: blue solid 3px;
+}

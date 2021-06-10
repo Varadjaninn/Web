@@ -1,0 +1,515 @@
+@font-face {
+    font-family: 'robotoblack';
+    src: url(./assets/fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'robotoblackitalic';
+    src: url(./assets/fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'robotobolditalic';
+    src: url(./assets/fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'roboitalic';
+    src: url(./assets/fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url(./assets/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'robotolightitalic';
+    src: url(./assets/fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url(./assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'robotomediumitalic';
+    src: url(./assets/fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url(./assets/fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'robotothinitalic';
+    src: url(./assets/fonts/Roboto-ThinItalic.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'robotoregular';
+}
+
+header {
+    width: 100%;
+}
+.header-title {
+    width: 100%;
+    background: url(./assets/images/banner3.jpg);
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 80px 40px;
+}
+
+.header-title h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    padding: 40px 20px;
+}
+
+.header-title a {
+    display: inline-block;
+    margin: auto;
+    background-color: #174c92;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border: 15px;
+    padding: 10px 30px;
+}
+
+.buildestate-logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buildestate-logo span {
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 30px;
+    color: rgb(95, 95, 95);
+}
+.buildestate-logo span:first-child {
+    border: 5px solid rgb(95, 95, 95);
+    border-right: none;
+    color: orange;
+    padding-left: 15px;
+}
+
+nav {
+    width: 90%;
+    margin: 0px auto;
+}
+
+nav ul {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 0;
+    list-style: none;
+}
+
+nav ul li {
+    background-color: #6db3e9;
+    text-align: center;
+}
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+section {
+    text-align: center;
+}
+
+.mainone {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section h1 {
+    font-size: 30px;
+}
+
+section article {
+    text-align: left;
+    color: rgb(87, 82, 82);
+}
+
+.graphic {
+    width: 100%;
+    text-align: center;
+}
+
+.line {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    border-top: 3px solid black;
+}
+
+.square {
+    display: inline-block;
+    position: relative;
+    bottom: 8px;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+    margin: 0px 10px;
+    transform: rotate(45deg);
+}
+
+h2 {
+    font-size: 25px;
+    color: #6db3e9;
+    margin-top: 40px;
+}
+
+article q {
+    font-family: 'robotoblack';
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+article ul {
+    list-style-image: url('./assets/images/arrow_bullet.png');
+    list-style-position: inside;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+article ul li {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.image1 img {
+    width: 100%;
+}
+
+.head-rate {
+    display: flex;
+    align-items: center;
+}
+
+.ratings {
+    background-color: #6db3e9;
+    margin-top:  30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.tumbernail {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.tumbernail img {
+    width: 100%;
+    border: white 3px solid;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.rate {
+    float: left;
+}
+
+.ratings > p {
+    clear: both;
+    text-align: left;
+    color: white;
+}
+
+.rate p {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.rate p span {
+    color: white;
+}
+
+.green {
+    background-color: #40e29f;
+  }
+
+.pink {
+    background-color: #eb5882;
+}
+
+.blue {
+    background-color: #2c5fd6;
+}
+
+.light-blue {
+    background-color: #6db3e9;
+}
+
+.address {
+    color: #f0dfe5;
+    padding: 30px;
+}
+
+.contact i {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.address h4 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.address p {
+    margin-bottom: 0;
+}
+
+.icons {
+    margin-top: 25px;
+}
+
+
+.last {
+    padding: 0;
+}
+
+.form {
+    margin: 50px 0px;
+
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 22px;
+    border: 2px solid #858484;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 22px;
+    border: 2px solid #858484;
+}
+
+input[type = "submit"] {
+    width: 30%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    max-width: 150px;
+    padding: 9px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.form {
+  padding: 0 20px;
+}
+
+
+footer {
+    background-color: #2e2d2d;
+    text-align: center;
+    padding: 30px 0px;
+}
+  
+footer ul {
+    margin-bottom: 30px;
+}
+  
+footer li {
+    display: inline-block;
+    padding: 5px;
+}
+  
+footer a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+  
+    header {
+        position: relative;
+    }
+    
+    .header-title {
+        padding: 150px 80px 150px;
+    }
+    
+    .header-title h3 {
+        margin-bottom: 40px
+    }
+    
+    .buildestate-logo {
+        position: absolute;
+        top: 5%;
+        left: 3%;
+        margin: 0;
+    }
+    
+    .buildestate-logo span:first-child {
+        border-color: white;
+    }
+    
+    .buildestate-logo span:last-child {
+        color: white;
+    }
+    
+    nav {
+        position: absolute;
+        top: 5%;
+        right: 0;
+        width: 45%;
+    }
+    nav ul {
+        margin: 0;
+        text-align: right;
+    }
+    nav ul li {
+        background-color: transparent;
+        display: inline-block;
+        padding-right: 3%;
+    }
+    
+    .header-title h3 {
+        font-size: 28px;
+    }
+    
+    
+    section {
+        margin: 100px 0px;
+    }
+    .mainone {
+        margin: 100px auto;
+    }
+    
+    .mainone:first-child {
+        max-width: 1100px;
+    }
+    
+    .article-side {
+        float: left;
+        width: 34%;
+        text-align: center;
+    }
+    
+    .image1 {
+        float: left;
+        width: 32%;
+        margin-bottom: 30px;
+        padding: 0 4%;
+    }
+    
+    .article-side h2 {
+        margin-top: 0;
+    }
+    
+    .graphic {
+        margin-bottom: 30px;
+    }
+    
+    .line {
+        display: inline-block;
+        width: 100px;
+    }
+    
+    .ratings {
+        float: left;
+        width: 32%;
+        margin-right: 2%;
+    }
+    
+    .ratings:nth-child(3n) {
+        margin-right: 0;
+    }
+    
+    .address {
+        float: left;
+        width: 25%;
+        height: 200px;
+    }
+    
+    .address .img-address,
+    .address .img-address img {
+        height: 100%;
+    }
+    
+    .address.last {
+        clear: both;
+        width: 100%;
+        height: 400px;
+    }
+    
+    form {
+        padding: 0 42px;
+    }
+    .form {
+        max-width: 1100px;
+        margin: auto;
+    }
+    
+    .form form input {
+        float: left;
+        width: 32%;
+        margin-right: 2%;
+    }
+    
+    .form form input:nth-child(3n) {
+        margin-right: 0;
+    }
+    
+    .form form textarea {
+        clear: both;
+    }
+    
+    #submit {
+        float: none;
+    }
+    
+    }
+

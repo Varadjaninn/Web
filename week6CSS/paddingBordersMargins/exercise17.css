@@ -1,0 +1,45 @@
+.parent {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 40px auto 0px auto;
+    padding: 5px 10px 15px 20px;
+    font-size: 25px;
+    color: white;
+}
+.class1 {
+    display: flex;
+    background-color: yellow;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.class2 {
+    display: flex;
+    background-color: orangered;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.class3 {
+    display: flex;
+    background-color: rgb(54, 53, 53);
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.class4 {
+    display: flex;
+    background-color: purple;
+    flex: 2;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.right {
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1;
+    height: 600px;
+}

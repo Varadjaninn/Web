@@ -1,0 +1,7 @@
+@mixin text-shadow($x, $y, $blur, $color) {
+    text-shadow: $x $y $blur $color;
+}
+
+@mixin box-shadow($x-axis, $y-axis, $blur, $color) {
+    box-shadow: $x-axis $y-axis $blur $color;
+  }

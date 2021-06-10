@@ -1,0 +1,65 @@
+<!--
+
+window.localStorage
+Create a function that stores passed data in the browser local storage.
+Create a function that reads the stored data, and print it out in console.
+If there is no data, print "There is no data" in the console.
+Create a function that removes data from the local storage.
+    
+Use the previously created functions to store/read/remove some data.
+Then add some data in storage and close the browser.
+Open the browser again on the same page and use the function to read the stored value.
+
+Modify functions to work with sessionStorage instead of localStorage.
+Try same scenario as with localStorage to examine data livecycle.
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <script>
+
+
+    //window.localStorage
+
+        function storeData() {
+            return localStorage.setItem('mytime', Date.now());
+        };
+
+        function retreveData() {
+           var x = localStorage.getItem('mytime');
+           if (!x) {
+               console.log("There is no data"); 
+           } else {
+               console.log(x);
+           }
+        };
+
+        function removeData() {
+            return localStorage.removeItem('mytime');
+        };
+
+        storeData();
+        retreveData();
+        removeData();
+        retreveData();
+
+    //window.history
+
+    (function () {
+       console.log(window.history);
+    }) ();
+   
+    </script>
+</head>
+<body>
+    <h1>Exercise 4</h1>
+</body>
+</html>

@@ -1,0 +1,122 @@
+$hblue: #293D4F;
+$sgreen: #20BC9C;
+$h1-font: Lato, Tahoma, sans-serif;
+
+
+* {
+    box-sizing: border-box;
+    font-family: $h1-font;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    .colorHeader {
+        background-color: $hblue;
+    }
+    .header-main {
+        background-color: $sgreen;
+        img {
+            display: block;
+            margin: 0px auto;
+        }
+        p {
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            font-size: 18px;
+            padding: 30px 10px 50px 10px;
+        }
+    }
+    h1 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: white
+    }
+}
+
+.star {
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.line {
+    display: inline-block;
+    height: 10px;
+    width: 40px;
+    border-top: 2px solid black;
+}
+.line-white {
+    @extend.line;
+    border-color: white;
+}
+
+.star-white {
+    @extend .star;
+    color: white;
+}
+.star-black {
+    @extend .star;
+    color: black;
+}
+
+.portfolio {
+    margin: 0px auto 80px auto;
+    width: 80%;
+    img {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+.about {
+    background-color: $sgreen;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+
+}
+
+.green-send {
+    background-color: $sgreen;
+}
+
+.icons {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+
+footer {
+    background-color: $hblue;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    .fgray {
+        color: #777;
+    }
+}
+
+
+@media only screen and (max-width: 578px) {
+    .fgray {
+        margin-bottom: 10px;
+    }
+    .navbar-toggler {
+        background-color: $sgreen;
+    }
+}
+
+
+
+

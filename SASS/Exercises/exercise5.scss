@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+}
+
+div {
+    width: 500px / 960px * 100%;
+    border: 5px solid black;
+}
+
+.red {
+    @extend div;
+    border-color: red;
+}
+
+.blue {
+    @extend div;
+    border-color: blue;
+}
+
+.green {
+    @extend div;
+    border-color: green;
+}

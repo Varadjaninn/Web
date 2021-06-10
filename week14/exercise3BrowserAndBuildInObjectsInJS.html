@@ -1,0 +1,104 @@
+<!--
+    window.navigator
+Create a function that prints out in the console the following information
+● the platform on which the browser is running
+● the information about the browser version
+● the company that created that browser
+Each piece of information should be printed out in a new row.
+Create new “isOnline” function that checks if the browser is online.
+It should print out “online” when the browser is online and “offline” when there is
+no Internet connection.
+
+
+window.screen
+Create a function that prints out the following information in the console:
+● current browser width and height
+● max possible browser height
+
+
+window.location
+Write a function that prints out website’s url information in the console:
+
+● full url address
+● domain name
+● used protocol
+● parameters which are part of URL.
+Create a function for reloading the page.
+Create a function that redirects you to a website address passed to it.
+Test all three functions
+
+
+window.localStorage
+Create a function that stores passed data in the browser local storage.
+Create a function that reads the stored data, and print it out in console.
+If there is no data, print "There is no data" in the console.
+Create a function that removes data from the local storage.
+    
+Use the previously created functions to store/read/remove some data.
+Then add some data in storage and close the browser.
+Open the browser again on the same page and use the function to read the stored value.
+
+Modify functions to work with sessionStorage instead of localStorage.
+Try same scenario as with localStorage to examine data livecycle.
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <script>
+
+    //windows.navigator
+        (function () {
+            console.log('Platform: ' + navigator.platform + '.' + '\n');  
+            console.log('Browser version: ' + navigator.appVersion + '.' + '\n');
+            console.log('Created by: ' + navigator.appName + '.' + '\n');
+        })();
+
+        (function isOnline() {
+            if (navigator.onLine === true) {
+                console.log('Browser is online.');
+            } else {
+                console.log('Browser is offline.');
+            }
+        }) ();
+
+    //windows.screen
+        (function () {
+            console.log('Browser height: ' + screen.height + '.' + '\n');
+            console.log('Browser width: ' + screen.width + '.' + '\n');
+            console.log('Max possible browser height: ' + screen.availHeight + '.' + '\n');
+        }) ();
+
+    //windows.location
+
+        (function () {
+            console.log('Url address: ' + location.href + '\n');
+            console.log('Domain name: ' + location.hostname + '\n');
+            console.log('Protocol: ' + location.protocol + '\n');
+            console.log('Host: ' + location.host  + '\n');
+        }) ();
+
+        (function pageReload() {
+            return location.reload;
+        }) ();
+
+        /*
+        (function redirectTo() {
+            console.log(location.replace('http://www.google.com'));
+        }) ();
+        */
+
+
+    </script>
+</head>
+<body>
+    <h1>Exercise 3</h1>
+</body>
+</html>
