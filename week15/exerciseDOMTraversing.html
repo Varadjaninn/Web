@@ -5,7 +5,36 @@ Each list should be wrapped in a div element.
 One <li> element in the second list should have a class “active”, which sets its background color.
 
 Create a function that selects the <li> element with class “active”.
-Remove the class from that element, and then select the first <li> element in the first unordered list using node relations.
+Remove the class from that element, and then select the first 
+<li> element in the first unordered list using node relations.
 Apply class to that newly selected <li> element
 
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Traversing</title>
+    <link rel="stylesheet" href="./exerciseDOMTraversing.css">
+</head>
+<body>
+    <div>
+       <ul>
+           <li>One</li>
+           <li>Two</li>
+           <li>Three</li>
+       </ul> 
+    </div>
+    <div>
+        <ul>
+            <li>Four</li>
+            <li class="active">Five</li>
+            <li>Six</li>
+        </ul>
+    </div>
+    <script src="./exerciseDOMTraversing.js"></script>
+</body>
+</html>
