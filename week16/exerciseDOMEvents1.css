@@ -1,0 +1,18 @@
+body {
+    background-color: #2d3e4f;
+}
+
+.toggleColor {
+    background-color: white;
+}
+
+button {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #c1392b;
+    color: white;
+    padding: 7px 18px;
+    border-radius: 5px;
+    border: none;
+}
