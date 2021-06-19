@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    background-image: url('./bg.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    width: 1500px;
+    height: 740px;
+}
+.mario_stands{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    left: 550px;
+    bottom: 105px;
+}
