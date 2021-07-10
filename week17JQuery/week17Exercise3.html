@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mygallery">
+        <a href="./pic1.jpg">
+            <img alt="Title 1" src="./pic1.jpg"/>
+        </a>
+        <a href="./pic2.jpg">
+            <img alt="Title 2" src="./pic2.jpg"/>
+        </a>
+        <a href="./pic3.jpg">
+            <img alt="Title 3" src="./pic3.jpg"/>
+        </a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.js"></script>
+    <script>
+        $("#mygallery").justifiedGallery({rowHeight:250});
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <button id="idButton">Click me</button>
+    <!-- <img id="random-dog" src="dog.jpg" alt="dog"> -->
+    <div id="gallery"></div>
+    <script>
+        const gallery = document.querySelector("#gallery")
+        const btn = document.querySelector('#idButton');
+        const img = document.querySelector('#random-dog');
+        btn.addEventListener('click', getRandomDog);
+
+        function getRandomDog() {
+                var request = new XMLHttpRequest()
+                request.open('GET', 'https://dog.ceo/api/breeds/image/random')
+                request.onload = function (event) {
+                    if (request.status >= 200 && request.status < 400) {
+                        const dogObj = JSON.parse(request.responseText);
+                        const src = dogObj.message;
+                        const img = document.createElement("img");
+                        img.setAttribute('src', src)
+                        gallery.appendChild(img);
+                    }
+                }
+                request.send();
+        }
+    </script>
+</body>
+</html>
